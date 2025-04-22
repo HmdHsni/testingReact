@@ -6,6 +6,7 @@ function App() {
 console.log("haminjooriiiiiiiiiiiiiii")
 console.log("haminjooriiiiiiiiiiiiiii")
 console.log("haminjooriiiiiiiiiiiiiii")
+console.log("test 1")
   return (
     <div className="App">
       <header className="App-header">
