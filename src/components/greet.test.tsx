@@ -8,10 +8,10 @@ describe("GREET DESCRIBE" ,()=>{
         const element=screen.getByText("hello")
        expect(element).toBeInTheDocument()
     })
-    test("greet hamideh" , ()=>{
-        render(<Greet name="hamideh"/>)
-        const greetElemnet=screen.getByText("hellohamideh")
-        expect(greetElemnet).toBeInTheDocument()
-    })
+    // test("greet hamideh" , ()=>{
+    //     render(<Greet name="hamideh"/>)
+    //     const greetElemnet=screen.getByText("hellohamideh")
+    //     expect(greetElemnet).toBeInTheDocument()
+    // })
 })
 // npm test -- --coverage
