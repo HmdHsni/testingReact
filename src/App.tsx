@@ -3,9 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  console.log("testing GitHub Actions...");
-  console.log("kjhgjgjd")
-  console.log("flow")
   return (
     <div className="App">
       <header className="App-header">
