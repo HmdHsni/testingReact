@@ -1,6 +1,6 @@
 import React from "react";
 
-export const getGrade = (score:number) => {
+export const getGrade = (score:any) => {
   if (score >= 90) return "A";
   else if (score >= 80) return "B";
   else if (score >= 70) return "C";
@@ -8,7 +8,7 @@ export const getGrade = (score:number) => {
   else return "F";
 };
 
-export default function GradeDisplay( score:number ) {
+export default function GradeDisplay({ score }: { score: number }) {
   const grade = getGrade(score);
 
   return (
